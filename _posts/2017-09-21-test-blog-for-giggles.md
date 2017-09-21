@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Test blog for giggles!"
 date:   2017-09-21 16:16:01 -0600
 categories: jekyll update
