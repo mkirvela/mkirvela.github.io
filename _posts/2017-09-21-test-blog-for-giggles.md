@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Test blog for giggles!"
-date:   2017-09-21 16:16:01 -0600
+date:   2017-09-21 09:00:00 +0300
 categories: jekyll update
 ---
 
@@ -11,7 +11,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 I'll just test some code:
 
-{% highlight ex %}
+{% highlight elixir %}
 def get_and_send_inbox(%Test.Player{} = state) do
   inbox = Test.GlobalInbox.Cache.get_inbox
   inbox = Enum.map(inbox, fn(i) -> i.pb_message end)
