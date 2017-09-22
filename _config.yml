@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
 highlighter: rouge
-name: "Nothing much"
+title: "Nothing much"
 url: "https://mkirvela.github.io"
+description: "nothing much ever"
