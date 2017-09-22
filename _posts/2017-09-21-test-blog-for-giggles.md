@@ -11,7 +11,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 I'll just test some code:
 
-{% highlight elixir %}
+{% highlight ex %}
 def get_and_send_inbox(%Test.Player{} = state) do
   inbox = Test.GlobalInbox.Cache.get_inbox
   inbox = Enum.map(inbox, fn(i) -> i.pb_message end)
