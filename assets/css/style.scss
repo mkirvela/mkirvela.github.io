@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+body {
+  color: #222;
+}
+
 figure.highlight {
   margin: 0;
 }
